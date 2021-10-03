@@ -60,6 +60,9 @@
     <Compile Include="Style.cs">
       <DependentUpon>Style.xaml</DependentUpon>
     </Compile>
+    <Compile Include="T6TCMain.xaml.cs">
+      <DependentUpon>T6TCMain.xaml</DependentUpon>
+    </Compile>
     <Compile Include="T6TCMenu.xaml.cs">
       <DependentUpon>T6TCMenu.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="T6TCMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

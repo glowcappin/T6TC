@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:T6TC"
         mc:Ignorable="d"
-        Title="T6 Texture Changer" Style="{DynamicResource WindowStyle}" Height="267" Width="409" ResizeMode="NoResize" WindowStartupLocation="Manual" WindowStyle="None">
+        Title="T6 Texture Changer" Style="{DynamicResource WindowStyle}" Height="267" Width="409" ResizeMode="NoResize" WindowStartupLocation="Manual" WindowStyle="None" WindowState="Normal">
     <Grid>
+        <Button x:Name="closeButton" Content="✕" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="24" Height="24" Background="{x:Null}" Foreground="{DynamicResource TitleColor}" Margin="384,-20,-1,0" Click="closeButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="minButton" Content="—" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="24" Height="24" Background="{x:Null}" Foreground="{DynamicResource TitleColor}" Margin="361,-20,0,0" Click="minButton_Click"/>
 
     </Grid>
     <Window.Resources>

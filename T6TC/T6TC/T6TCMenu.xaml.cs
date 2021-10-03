@@ -23,6 +23,22 @@ namespace T6TC
         {
             InitializeComponent();
             this.WindowState = WindowState.Normal;
+
+        }
+
+        private void closeButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void minButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

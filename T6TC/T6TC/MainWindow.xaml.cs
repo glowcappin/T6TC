@@ -176,10 +176,10 @@ namespace T6TC
                 }
                 else
                 {
-                    bool success = webClient.DownloadString("https://pastebin.com/raw/QSBNSuJG").Contains(value);
-                    LoginButton.Content = "Loading...";
+                    bool success = webClient.DownloadString("https://git.io/JgeKe").Contains(value);
                     if (success)
                     {
+                        LoginButton.Content = "Loading...";
                         var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(value);
                         string ok = System.Convert.ToBase64String(plainTextBytes);
                         string roaming = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
@@ -191,13 +191,14 @@ namespace T6TC
                         T6TCMenu win2 = new T6TCMenu();
                         win2.Show();
                         win2.Top = this.Top;
+                        win2.WindowState = WindowState.Normal;
                         win2.Left = this.Left;
                         this.Close();
                     }
                     else
                     {
-                        bool fruad = webClient.DownloadString("https://pastebin.com/raw/QSBNSuJG").Contains(value2);
-                        bool banned = webClient.DownloadString("https://pastebin.com/raw/QSBNSuJG").Contains(value3);
+                        bool fruad = webClient.DownloadString("https://git.io/JgeKe").Contains(value2);
+                        bool banned = webClient.DownloadString("https://git.io/JgeKe").Contains(value3);
                         if (fruad)
                         {
                             LoginButton.Content = "Wrong HWID ¯\\_(ツ)_//¯";

@@ -1,0 +1,13 @@
+﻿<Window x:Class="T6TC.T6TCMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T6TC"
+        mc:Ignorable="d"
+        Title="T6 Texture Changer" Style="{DynamicResource WindowStyle}" Height="141" Width="411.5" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <Button HorizontalAlignment="Left" Margin="103,23,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
