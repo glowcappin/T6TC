@@ -1,6 +1,6 @@
 # T6TC – Black Ops II Texture Tool
 
-![BO2 Banner](https://cdn.clickrp.org/u/chrome_XlHCraMzJr.png)
+![BO2 Banner](https://cdn.clickrp.org/u/chrome_lzuhQ6q85m.jpg)
 
 **T6TC** is an **automated texture changer** for *Call of Duty: Black Ops II*.  
 This project was originally made years ago by my good friend **Kate, also known as Ardiium** — **she has asked me to open-source it for her, and possibly even update it**. It’s simple to use, and still one of the best ways to customize your BO2 visuals.
